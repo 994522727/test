@@ -1,1 +1,31 @@
-I am the frist file!
+git checkout "name"   舍弃工作区 返回最近add/commit
+git reset HEAD "name"   舍弃暂存区   即丢掉add
+git reset --hard HEAD   返回上一步操作（有HEAD的步骤，若工作区修改尚未add的则将被删去）
+git reset --hard HEAD^  返回上上一步操作
+git rm name  删除版本库中文件
+
+
+
+git remote add origin git@github.com:994522727/库名.git 添加远程库
+git remote rm origin 删除远程库
+git push -u origin master	推送到远程库
+git clone git@github.com/994522727/库.git	克隆远程库
+
+
+git checkout -b branchname  创建并切换分支
+git checkout branchname	切换到该分支
+git branch 查看分支情况
+git merge branchname	合并分支到当前分支
+git branch -d branchname	删除分支
+git branch -D branchName	强制删除
+git merge --no-ff -m"" branchName	no-ff合并分支，可用git log --graph查看分支合并情况
+
+
+git stash	暂存，存档
+git stash list	暂存后的工作区
+git stash pop	返回存档，并删除原来stash list中的内容
+
+
+svWumh_wZHv6UWkcEZ2_
+
+urge   
